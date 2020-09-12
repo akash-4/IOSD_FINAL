@@ -11,6 +11,24 @@ body{
   padding: 0;
   overflow-x: hidden;
 }
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 h1{
   text-align: center;
   color: rgba(41, 39, 39, 0.815);
@@ -184,14 +202,13 @@ a{
   margin-top: 4%;
 }
 header{
-  position: sticky;
+  position: fixed;
   top: 0px;
   background-color: white;
   width: 100vw;
   border-bottom:100px solid #fff;
-  border-width:0.1vh ;
+  border-width:0;
   padding-bottom: 0%;
-  padding-top: 1%;
   z-index: 1 ;
  
 }
