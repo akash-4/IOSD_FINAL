@@ -542,3 +542,22 @@ footer{
   
   background: rgba(0,0,0,.8);
 }
+.iosd-login{
+  float: right;
+  width: 150px;
+  font-weight: 900;
+}
+.iosd-login:hover{
+  width: 150px;
+  color: #fff;
+  font-weight: 900;
+  background-color: #19a4de;
+}
+.iosd-im {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  padding: 50px;
+  background: transparent;
+}
