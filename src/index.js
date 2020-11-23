@@ -25,6 +25,6 @@ app.use(express.static(publicdir))
 const port=process.env.PORT||3000
 app.listen(port,()=>
 {
-    console.log('Server up is on port' + port)
+    console.log(`Server up is on port ${port}`)
 
 })
